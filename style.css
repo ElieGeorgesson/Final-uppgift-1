@@ -2,9 +2,7 @@ body {
   background-color: #000000;
 }
 
-
 nav {
-  /* Before and after hovering for navigation bar*/
 
   position: absolute;
   width: 90px;
@@ -16,86 +14,23 @@ nav {
   align-items: center;
   justify-content: space-around;
   margin: auto;
+
 }
 
- a { 
-  position: relative;
+a {
+  color: white;
+  min-width: 60px;
   text-decoration: none;
   font-family: Roboto;
   color: #ffffff;
   font-size: 18px;
   letter-spacing: 0.7px;
   padding: 0px;
-
-}
-
-a:after {
-  content: "";
-  position: absolute;
-  background-color: #e0b445;
-  height: 3px;
-  width: 0;
-  left: 0;
-  bottom: -10px;
-  transition: 0.3s;
 }
 
 a:hover {
   color: #e0b445;
 }
-
-a:hover:after {
-  width: 100%;
-}
-
-/* Before and after hovering for navigation bar*/
-
-/* This is a single-line comment 
-.startsida {
-    align-items: flex-start;
-    background-color: var(--black);
-    display: flex;
-    flex-direction: column;
-    height: 900px;
-    padding: 77px 61px;
-    width: 1440px;
-  }
-  
-  .startsida .flex-row {
-    align-items: flex-start;
-    display: flex;
-    height: 21px;
-    min-width: 1289px;
-  }
-
-  .startsida .flex-row-1 {
-    align-items: center;
-    display: flex;
-    margin-top: 134px;
-    min-width: 1289px;
-  }
-
-  .startsida .flex-row-2 {
-    align-items: center;
-    align-self: center;
-    display: flex;
-    margin-right: 23.13px;
-    margin-top: 31px;
-    min-width: 209px;
-  }
-  .container-center-horizontal {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    pointer-events: none;
-    width: 100%;
-  }
-  
-  .container-center-horizontal > * {
-    flex-shrink: 0;
-    pointer-events: auto;
-  }
-  */
 
 .elie-georgesson {
   position: absolute;
@@ -108,26 +43,22 @@ a:hover:after {
   font-weight: bold;
   font-size: 18px;
   line-height: 21px;
-  color: #FFFFFF;
+  color: white;
+  margin: auto;
 }
 
 .elie-georgeson-is-a {
   color: white;
   font-family: Rufina;
   font-size: 30px;
-  font-weight: 400px;
-  letter-spacing: 0px;
-  min-height: 196px;
+  font-weight: normal;
   position: absolute;
   width: 800px;
   height: 196px;
   left: 61px;
   top: 300px;
-  font-family: Rufina;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 30px;
   line-height: 49px;
+  margin: auto;
 }
 
 .span0 {
@@ -139,32 +70,44 @@ a:hover:after {
   width: 381px;
   height: 529px;
   left: 750px;
-  top: -150px;
+  top: 150px;
+  margin: auto;
+}
+
+.flex-row-social-media-logos {
+  align-items: center;
+  display: flex;
+  margin-left: 490px;
+  margin-top: 700px;
+  min-width: 200px;
+  justify-content: initial;
+
+
 }
 
 .linkedin {
-  position: absolute;
+
   width: 50px;
   height: 50px;
-  left: 500px;
-  top: 760px;
+  margin: 20px;
+
 }
 
 .github {
-  position: absolute;
-  width: 34.68px;
-  height: 34.68px;
-  left: 600px;
-  top: 770px;
+
+  width: 34px;
+  height: 34px;
+  margin: 20px;
+
 }
 
 .twitter {
-  position: absolute;
-  width: 30.29px;
+
+  width: 30px;
   height: 25px;
-  left: 700px;
-  top: 773px;
+  margin: 20px;
 }
+
 .eliegeorgesson2 {
   position: absolute;
   width: 200px;
@@ -176,7 +119,8 @@ a:hover:after {
   font-weight: bold;
   font-size: 18px;
   line-height: 21px;
-  color: #ffffff;
+  color: white;
+  margin: auto;
 }
 
 .link {
@@ -186,4 +130,322 @@ a:hover:after {
   top: 0;
   left: 0;
   z-index: 1;
+}
+
+#heartaerospaceuxuicasestudy {
+  color: white;
+  position: absolute;
+  width: 511px;
+  height: 51px;
+  left: 47px;
+  top: 250px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: justify;
+  text-indent: 17px;
+  margin: auto;
+
+}
+
+#casestudydesciption {
+  color: white;
+  position: absolute;
+  width: 511px;
+  height: 136px;
+  left: 61px;
+  top: 330px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+  text-indent: 17px;
+  margin: auto;
+
+}
+
+#commingsoon {
+  color: white;
+  opacity: 0.5;
+  position: absolute;
+  width: 511px;
+  height: 51px;
+  left: 400px;
+  top: 500px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  margin: auto;
+
+}
+
+#mockup {
+  position: absolute;
+  width: 500px;
+  height: 400px;
+  left: 725px;
+  top: 180px;
+  margin: auto;
+}
+
+
+#Hey-Im-Elie {
+  color: white;
+  font-family: Rufina;
+  font-size: 40px;
+  font-weight: normal;
+  position: absolute;
+  width: 300px;
+  height: 196px;
+  left: 61px;
+  top: 250px;
+  line-height: 49px;
+  margin: auto;
+}
+
+#Imstudying {
+  color: rgb(168, 168, 168);
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: normal;
+  position: absolute;
+  width: 685px;
+  height: 196px;
+  left: 61px;
+  top: 350px;
+  line-height: 45px;
+  margin: auto;
+}
+
+.myprofile2 {
+  position: absolute;
+  width: 298px;
+  height: 398px;
+  left: 830px;
+  top: 190px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+#UI {
+  color: rgb(241, 156, 20);
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: normal;
+  position: absolute;
+  width: 250px;
+  height: 196px;
+  left: 65px;
+  top: 700px;
+  line-height: 35px;
+  margin: auto;
+}
+
+#UIpro {
+  position: absolute;
+  width: 320px;
+  height: 234px;
+  left: 65px;
+  top: 750px;
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  color: rgb(168, 168, 168);
+  margin: auto;
+
+}
+
+#Prototyping {
+  color: rgb(241, 156, 20);
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: normal;
+  position: absolute;
+  width: 250px;
+  height: 196px;
+  left: 490px;
+  top: 700px;
+  line-height: 35px;
+  margin: auto;
+}
+
+#prototyping-products {
+  position: absolute;
+  width: 320px;
+  height: 234px;
+  left: 490px;
+  top: 750px;
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  color: rgb(168, 168, 168);
+  margin: auto;
+}
+
+#uxresearch {
+  color: rgb(241, 156, 20);
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: normal;
+  position: absolute;
+  width: 250px;
+  height: 196px;
+  left: 915px;
+  top: 700px;
+  line-height: 35px;
+  margin: auto;
+}
+
+#user-research {
+  position: absolute;
+  width: 320px;
+  height: 234px;
+  left: 915px;
+  top: 750px;
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  color: rgb(168, 168, 168);
+  margin: auto;
+}
+
+#inputname {
+  background-color: black;
+  font-size: 18px;
+  color: white;
+  border-color: white;
+  border-radius: 4px;
+  position: absolute;
+  width: 850px;
+  height: 40px;
+  left: 200px;
+  top: 240px;
+  margin: auto;
+}
+
+#yourname {
+  color: white;
+  font-size: 18px;
+  letter-spacing: 0.7px;
+  position: absolute;
+  width: 700px;
+  height: 40px;
+  left: 200px;
+  top: 200px;
+  margin: auto;
+  font-family: Roboto;
+
+}
+
+#inputemail {
+  background-color: black;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  border-color: white;
+  border-radius: 4px;
+  position: absolute;
+  width: 850px;
+  height: 40px;
+  left: 200px;
+  top: 380px;
+  margin: auto;
+}
+
+#youremail {
+  color: white;
+  font-size: 18px;
+  letter-spacing: 0.7px;
+  position: absolute;
+  width: 700px;
+  height: 40px;
+  left: 200px;
+  top: 340px;
+  margin: auto;
+  font-family: Roboto;
+
+}
+
+#inputsubject {
+  background-color: black;
+  font-size: 18px;
+  color: white;
+  border-color: white;
+  border-radius: 4px;
+  position: absolute;
+  width: 850px;
+  height: 40px;
+  left: 200px;
+  top: 520px;
+  margin: auto;
+}
+
+#subject {
+  color: white;
+  font-size: 18px;
+  letter-spacing: 0.7px;
+  position: absolute;
+  width: 700px;
+  height: 40px;
+  left: 200px;
+  top: 480px;
+  margin: auto;
+  font-family: Roboto;
+
+}
+
+#inputmessage {
+  background-color: black;
+  font-size: 18px;
+  color: white;
+  border-color: white;
+  border-radius: 4px;
+  position: absolute;
+  width: 850px;
+  height: 250px;
+  left: 200px;
+  top: 700px;
+
+
+}
+
+#yourmessage {
+  color: white;
+  font-size: 18px;
+  letter-spacing: 0.7px;
+  position: absolute;
+  width: 700px;
+  height: 40px;
+  left: 200px;
+  top: 650px;
+  margin: auto;
+  font-family: Roboto;
+
+}
+
+#sendbutton {
+
+  position: relative;
+  left: 190px;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  display: inline-block;
+  margin: 1000px 2px 50px;
+  cursor: pointer;
+  font-size: 18px;
+  width: 150px;
+  border-radius: 5px;
+  font-family: Roboto;
+
 }
