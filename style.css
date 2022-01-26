@@ -18,7 +18,7 @@ nav {
 }
 
 a {
-  color: white;
+  color: rgb(255, 255, 255);
   min-width: 60px;
   text-decoration: none;
   font-family: Roboto;
@@ -32,6 +32,8 @@ a:hover {
   color: #e0b445;
 }
 
+
+
 .elie-georgesson {
   position: absolute;
   width: 200px;
@@ -43,9 +45,49 @@ a:hover {
   font-weight: bold;
   font-size: 18px;
   line-height: 21px;
-  color: white;
+  color: rgb(255, 255, 255);
   margin: auto;
 }
+
+/* Media Query for Mobile Devices */
+@media  (max-width: 480px) {
+  div.elie-georgesson {
+    position: absolute;
+    width: 144px;
+    height: 20px;
+    left: 21px;
+    top: 97px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    flex: content;
+  }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+  div.elie-georgesson {
+    position: absolute;
+    width: 200px;
+    height: 21px;
+    left: 61px;
+    top: 77px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    flex: content;
+  }
+}
+
+
 
 .elie-georgeson-is-a {
   color: white;
@@ -64,6 +106,33 @@ a:hover {
 .span0 {
   color: #e0b445;
 }
+
+
+/* Media Query for Mobile Devices */
+@media  (max-width: 480px) {
+  .elie-georgeson-is-a {
+    position: absolute;
+    width: 200px;
+    height: 21px;
+    left: 61px;
+    top: 150px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 21px;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    flex: content;
+  }
+}
+
+
+
+
+
+
+
 
 .myprofile {
   position: absolute;
